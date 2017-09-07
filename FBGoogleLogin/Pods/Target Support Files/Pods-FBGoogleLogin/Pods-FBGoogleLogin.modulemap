@@ -1,0 +1,6 @@
+framework module Pods_FBGoogleLogin {
+  umbrella header "Pods-FBGoogleLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
