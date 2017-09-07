@@ -6,7 +6,8 @@ target 'FBGoogleLogin' do
   use_frameworks!
 
   # Pods for FBGoogleLogin
-pod 'FacebookCore'
-pod 'FacebookLogin'
-pod 'FacebookShare'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
+
 end
