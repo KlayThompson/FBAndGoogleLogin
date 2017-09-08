@@ -12,6 +12,7 @@
 		3B6ACFE31F6118CA00EB11BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6ACFE11F6118CA00EB11BD /* Main.storyboard */; };
 		3B6ACFE51F6118CA00EB11BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6ACFE41F6118CA00EB11BD /* Assets.xcassets */; };
 		3B6ACFE81F6118CA00EB11BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6ACFE61F6118CA00EB11BD /* LaunchScreen.storyboard */; };
+		3B6ACFF01F613DA300EB11BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B6ACFEF1F613DA300EB11BD /* GoogleService-Info.plist */; };
 		E7BD163F34A2DA61D232011C /* Pods_FBGoogleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C74158911CB4271B0FAE05D /* Pods_FBGoogleLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		3B6ACFE41F6118CA00EB11BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B6ACFE71F6118CA00EB11BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B6ACFE91F6118CA00EB11BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6ACFEF1F613DA300EB11BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5C74158911CB4271B0FAE05D /* Pods_FBGoogleLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBGoogleLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D34CBB00E29F7F1570CC36 /* Pods-FBGoogleLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBGoogleLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBGoogleLogin/Pods-FBGoogleLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		C81FB72D1C8C383B83EBBF20 /* Pods-FBGoogleLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBGoogleLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBGoogleLogin/Pods-FBGoogleLogin.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				3B6ACFE41F6118CA00EB11BD /* Assets.xcassets */,
 				3B6ACFE61F6118CA00EB11BD /* LaunchScreen.storyboard */,
 				3B6ACFE91F6118CA00EB11BD /* Info.plist */,
+				3B6ACFEF1F613DA300EB11BD /* GoogleService-Info.plist */,
 			);
 			path = FBGoogleLogin;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6ACFE81F6118CA00EB11BD /* LaunchScreen.storyboard in Resources */,
+				3B6ACFF01F613DA300EB11BD /* GoogleService-Info.plist in Resources */,
 				3B6ACFE51F6118CA00EB11BD /* Assets.xcassets in Resources */,
 				3B6ACFE31F6118CA00EB11BD /* Main.storyboard in Resources */,
 			);
