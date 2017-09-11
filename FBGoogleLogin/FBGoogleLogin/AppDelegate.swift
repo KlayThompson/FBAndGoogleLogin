@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //FB
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
         
-        //Google好奇怪，这里需要把数字放在前面，在scheme那里就不需要
+        //此处需要用GoogleService-Info.plist中的CLIENT_ID对应的值，而在urlscheme中则使用的是REVERSED_CLIENT_ID对应的值
         GIDSignIn.sharedInstance().clientID = "299885154457-o4uft0h5ecfca7fv8hon3rtm533bopmf.apps.googleusercontent.com"
         
         return true
